@@ -19,7 +19,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">iCoder</a>
+            <a class="navbar-brand" href="index.html">iCoder</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -29,11 +29,11 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <!-- Home -->
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <!-- About -->
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
+                        <a class="nav-link active" href="#">About</a>
                     </li>
                     <!-- Topics ( Dropdown ) -->
                     <li class="nav-item dropdown">
@@ -146,155 +146,59 @@
         </div>
     </div>
 
-    <!-- =============== Caraousel =============== -->
-
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <!-- Image 1 -->
-                <img src="/Bootstrap/Images ( iCoder )/image-1.jpg" class="d-block w-100" height="450px" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>Welcome to iCoder</h2>
-                    <p>Technology news, Developement and Trends</p>
-                    <button class="btn btn-danger">Technology</button>
-                    <button class="btn btn-primary">Web Developement</button>
-                    <button class="btn btn-success">Tech Fun</button>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <!-- Image 2 -->
-                <img src="/Bootstrap/Images ( iCoder )/image-2.webp" class="d-block w-100" height="450px" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>The Best Coding Blogs</h2>
-                    <p>Technology news, Developement and Trends</p>
-                    <button class="btn btn-danger">Technology</button>
-                    <button class="btn btn-primary">Web Developement</button>
-                    <button class="btn btn-success">Tech Fun</button>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <!-- Image 3 -->
-                <img src="/Bootstrap/Images ( iCoder )/image-3.jpg" class="d-block w-100" height="450px" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                    <h2>Award Winning Blogs</h2>
-                    <p>Technology news, Developement and Trends</p>
-                    <button class="btn btn-danger">Technology</button>
-                    <button class="btn btn-primary">Web Developement</button>
-                    <button class="btn btn-success">Tech Fun</button>
-                </div>
-            </div>
-        </div>
-        <!-- Previous/Next Buttons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
-    <!-- =============== Four Cards =============== -->
+    <!-- =============== Row Featurettes =============== -->
 
     <div class="container my-5">
-        <div class="row mb-2">
-            <!-- Card number 1 -->
-            <div class="col-md-6">
-                <div
-                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <!-- Content -->
-                        <strong class="d-inline-block mb-2 text-primary">World</strong>
-                        <h3 class="mb-0">Global Conferrences</h3>
-                        <!-- <div class="mb-1 text-muted">Nov 12</div> -->
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                            lead-in to
-                            additional content.</p>
-                        <a href="#" class="stretched-link">Continue reading</a>
-                    </div>
-                    <!-- Image -->
-                    <div class="col-auto d-none d-lg-block">
-                        <img src="/Bootstrap/Images ( iCoder )/thumb-1.jpg" class="bd-placeholder-img" width="200"
-                            height="250">
-                    </div>
-                </div>
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <!-- Content -->
+            <div class="col-md-7">
+                <h2 class="featurette-heading">iCoder's Formation</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sequi beatae voluptas
+                    illum ea omnis rem libero tenetur dolorum, vel debitis cumque doloribus consequatur quibusdam et,
+                    perferendis, molestiae facilis aperiam.</p>
             </div>
-            <div class="col-md-6">
-                <!-- Card number 2 -->
-                <div
-                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <!-- Content -->
-                        <strong class="d-inline-block mb-2 text-success">Design</strong>
-                        <h3 class="mb-0">Learn Designing</h3>
-                        <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
-                            additional content.</p>
-                        <a href="#" class="stretched-link">Continue reading</a>
-                    </div>
-                    <!-- Image -->
-                    <div class="col-auto d-none d-lg-block">
-                        <img src="/Bootstrap/Images ( iCoder )/thumb-2.png" class="bd-placeholder-img" width="200"
-                            height="250">
-                    </div>
-                </div>
+            <!-- Image -->
+            <div class="col-md-5">
+                <img src="https://source.unsplash.com/500x500/?tech" alt=""
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
             </div>
         </div>
     </div>
 
+    <hr class="featurette-divider">
+
     <div class="container my-5">
-        <div class="row mb-2">
-            <div class="col-md-6">
-                <!-- Card number 3 -->
-                <div
-                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <!-- Content -->
-                        <strong class="d-inline-block mb-2 text-warning">Image</strong>
-                        <h3 class="mb-0">Learn Photography</h3>
-                        <!-- <div class="mb-1 text-muted">Nov 12</div> -->
-                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural
-                            lead-in to
-                            additional content.</p>
-                        <a href="#" class="stretched-link">Continue reading</a>
-                    </div>
-                    <!-- Image -->
-                    <div class="col-auto d-none d-lg-block">
-                        <img src="/Bootstrap/Images ( iCoder )/thumb-3.jpg" class="bd-placeholder-img" width="200"
-                            height="250">
-                    </div>
-                </div>
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <!-- Content -->
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">iCoder's Idea</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sequi beatae voluptas
+                    illum ea omnis rem libero tenetur dolorum, vel debitis cumque doloribus consequatur quibusdam et,
+                    perferendis, molestiae facilis aperiam.</p>
             </div>
-            <div class="col-md-6">
-                <!-- Card number 4 -->
-                <div
-                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                    <div class="col p-4 d-flex flex-column position-static">
-                        <!-- Content -->
-                        <strong class="d-inline-block mb-2 text-danger">Technology</strong>
-                        <h3 class="mb-0">NASA's Rockets</h3>
-                        <!-- <div class="mb-1 text-muted">Nov 11</div> -->
-                        <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to
-                            additional content.</p>
-                        <a href="#" class="stretched-link">Continue reading</a>
-                    </div>
-                    <!-- Image -->
-                    <div class="col-auto d-none d-lg-block">
-                        <img src="/Bootstrap/Images ( iCoder )/thumb-4.jpg" class="bd-placeholder-img" width="200"
-                            height="250">
-                    </div>
-                </div>
+            <!-- Image -->
+            <div class="col-md-5 order-md-1">
+                <img src="https://source.unsplash.com/500x500/?idea" alt=""
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
+            </div>
+        </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="container my-5">
+        <div class="row featurette d-flex justify-content-center align-items-center">
+            <!-- Content -->
+            <div class="col-md-7">
+                <h2 class="featurette-heading">iCoder's Team</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse sequi beatae voluptas
+                    illum ea omnis rem libero tenetur dolorum, vel debitis cumque doloribus consequatur quibusdam et,
+                    perferendis, molestiae facilis aperiam.</p>
+            </div>
+            <!-- Image -->
+            <div class="col-md-5">
+                <img src="https://source.unsplash.com/500x500/?team" alt=""
+                    class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto">
             </div>
         </div>
     </div>
@@ -302,6 +206,7 @@
     <!-- =============== Footer =============== -->
 
     <hr>
+
     <footer class="container my-5">
         <p class="float-end"><a href="#">Back to top</a></p>
         <p>© 2020–2022 iCoder, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
